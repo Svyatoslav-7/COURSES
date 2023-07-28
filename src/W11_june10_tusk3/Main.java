@@ -18,7 +18,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MyException {
         Scanner scanner=new Scanner(System.in);
         Price[] prices = new Price[2];
 
@@ -53,7 +53,7 @@ public class Main {
             }
 
         if (found==false) {
-            System.out.println("We don`t have this product");
+            throw new MyException("We don`t have this product");
         }
 
 
