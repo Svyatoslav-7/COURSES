@@ -33,14 +33,17 @@ public class Main {
             System.out.println("Enter name of your work: ");
             String nameOfWork = scanner.nextLine();
 
-            try{
-                System.out.println("Enter when you start work (year): ");
-                int ageStartOfWork =scanner.nextInt();
-                Worker worker = new Worker(name, secondName, nameOfWork, ageStartOfWork);
+            try {
+                System.out.println("Enter when you started work (year): ");
+                int startYear = scanner.nextInt();
+                if (startYear < 1900 || startYear > 2023) {
+                    throw new InvalidYearFormatException("Invalid year format. Please enter a valid year.");
+                }
+                Worker worker = new Worker(name, secondName, nameOfWork, startYear);
                 workers.add(worker);
                 scanner.nextLine();
-            }catch(Exception e){
-                    System.out.println("Invalid input. Please enter a valid year.");
+            } catch (InvalidYearFormatException e) {
+                System.out.println(e.getMessage());
                 scanner.nextLine();
             }
         }
