@@ -1,5 +1,10 @@
 package W13_july11_tusk8;
 
+/*
+Напишіть жартівливу програму «Дешифратор», яка в текстовому файлі могла б замінити всі прийменники на слово «Java».
+* Завдання із зірочкою - перезаписати вміст файлу
+*/
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

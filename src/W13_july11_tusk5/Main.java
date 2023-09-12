@@ -1,5 +1,10 @@
 package W13_july11_tusk5;
 
+/*
+Створіть файл, запишіть у нього довільні дані та закрийте файл.
+Потім знову відкрийте цей файл, прочитайте дані і виведіть їх на консоль.
+*/
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,5 +1,10 @@
 package W13_july11_tusk7;
 
+/*
+Створіть у пакеті текстовий файл і клас, внесіть у файл якийсь текст.
+Виведіть на екран вміст файлу
+*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
