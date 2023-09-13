@@ -20,7 +20,6 @@ public class ThreadExample {
         System.out.println("Всі потоки завершили роботу.");
     }
 }
-
 class MyRunnable implements Runnable {
     private final String name;
 
