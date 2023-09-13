@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<city size="big">
+    <name>Kiev</name>
+    <streets>
+        <street>
+            <name>Main Street</name>
+            <building>1</building>
+        </street>
+        <street>
+            <name>Second Street</name>
+            <building>10</building>
+        </street>
+        <street>
+            <name>Park Avenue</name>
+            <building>25</building>
+        </street>
+        <street>
+            <name>Elm Street</name>
+            <building>5</building>
+        </street>
+        <street>
+            <name>Sample Street</name>
+            <building>42</building>
+        </street>
+    </streets>
+</city>
