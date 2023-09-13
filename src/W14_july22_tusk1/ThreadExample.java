@@ -1,5 +1,18 @@
 package W14_july22_tusk1;
 
+/*Затримка потоку.
+
+Необхідно створити три потоки, кожних із цих потоків запустити (наприклад: main, second, first),
+
+Вивести - поток 'NAME' стартував - 'DateTime'
+
+Коли поток закінчив роботу - поток 'NAME' фінішував - 'DateTime'
+
+Коли всі ці потоки успішно відпрацюють – вивести на екран повідомлення
+
+Всі потоки завершили роботу
+*/
+
 public class ThreadExample {
     public static void main(String[] args) {
         Thread firstThread = new Thread(new MyRunnable("First"));
